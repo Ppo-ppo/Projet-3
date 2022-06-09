@@ -1,0 +1,90 @@
+/* BODY */
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: 'montserrat';
+}
+/* Nav */
+.barnav{
+    background-color: #f1d25600;
+}
+.logo{
+    color:#252B42;
+
+}
+.barnav a {
+    color:#737373;
+}
+/* HEADER */
+header{
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);
+    
+}
+
+
+.boutonh1{
+    border-radius: 37px;
+    background-color: #00A0C1;
+    border-color: #00A0C1;
+}
+.boutonh2{
+    width: 130px;
+    border-radius: 37px;
+    color:#00A0C1;
+    border-color: #00A0C1;
+}
+
+
+.titreh{
+    font-weight: bolder;
+    width: 300px;
+    font-size:40px;
+
+
+}
+.contenu{
+    font-size:20px;
+}
+
+/* Why Choose Us*/
+.choose{
+    width:300px;
+    height:150px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.chooseparagraphe{
+    width:225px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+.valise{
+    width: 48px;
+    height: 48px;
+}
+.shop{
+    width: 48px;
+    height: 48px;
+}
+.cahier{
+    width:48px;
+    height:48px;
+}
+.card1{
+    background-color: #F9F9F9;
+    border-color: #F9F9F9;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+.cardbleu{
+    background-color:#00A0C1;
+    border-color:#00A0C1;
+    color:white;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
