@@ -10,82 +10,73 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     
 </head>
 
 <body>
    
-    <header class="container-fluid">
-        <div class="container">
+    <header class=>
         <!--NAVBAR-->
-            <nav class="navbar nav-expand-md navbar-light barnav">
-                <div class="container-fluid"></div>
-                    <a class="nav-link brand"><p class="h1 logo">Capgemen</p></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-item" href="#">Product</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#">Pricing</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                                    </svg> 
-                                </a>
-                            </li>
-                            <li>
-                                <a class="nav-link" href="#">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+        <nav class="navbar navbar-expand-md bg-light">
+            <div class="container gap-3">
+                <a href="#header" class="navbar-brand"><h1 class="fw-bold fs-2">Capgemen</h1></a>
+                <a href="#" class="order-md-3"><img src="Image/magnifying.svg" alt="Search"></a>
+                <a href="#" class="order-md-2"><img src="Image/shopping-cart.svg" alt="Panier"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-         
+controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="Image/iconToggle.svg" alt="Bouton du menu burger">
+                </button>
+                <div class="collapse navbar-collapse order-md-1 justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav my-5 my-md-0">
+                      <li class="nav-item text-md-star text-center">
+                        <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item text-md-star text-center">
+                        <a class="nav-link fs-5" href="#">Product</a>
+                      </li>
+                      <li class="nav-item text-md-star text-center">
+                        <a class="nav-link fs-5" href="#">Pricing</a>
+                      </li>
+                      <li class="nav-item text-md-star text-center">
+                        <a class="nav-link fs-5" href="#">Contact</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+</nav>
             <!--CONTENUE HEADER-->
-            <div class="container row ">
-                <div class="col-md-6">
-                    <h2 class="text-center titreh"> We Take Care of the Future</h2>
+            <div class="container">
+                <div class="row col-md-6 d-flex align-items-center justify-content-center ">
+                    <h1 class="text-center g-5 pb-2 fw-bold titreh"> We Take Care of the Future</h1>
                     <p class="text-center contenu">We know how large objects will act, but things on a small scale.</p>
-                    <div class="text-center ">
-                    <button class="btn btn-primary boutonh1">Get Quote Now</button>
-                    <button class="btn btn-outline-primary boutonh2">Learn More</button>
+                    <div class="d-flex flex-column align-items-center justify-content-center">
+                    <button class="col-5 btn btn-primary boutonh1">Get Quote Now</button>
+                    <button class=" col-4 btn btn-outline-primary mt-2 boutonh2">Learn More</button>
                     </div>
                 </div>
-                <img src="Image/secretaireHeader.png" alt="Secretaire souriante" class="position-absolute bottom-0 start-50 translate-middle-x col-md-6 secretaireh ">
+                
             </div>
         </div>
     </header>
     <!--Section why choose us-->
-    <section style="height: 1010px;">
-        <div class="container-fluid row d-flex justify-content-center">
-            <h2 class="text-center mt-5 pt-5 choose">WHY CHOOSE US</h2>
-            <p class="text-center mb-5 chooseparagraphe">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+    <section style="height:800px;">
+        <div class="container-fluid">
+            <div class="row d-flex justify-content-center mt-5 pt-5 ">
+                <h2 class="col-6 col-md-12 text-center  choose">WHY CHOOSE US</h2>
+                <p class=" col-6 col-md-12 text-center chooseparagraphe">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+            </div>
         </div>
         <div class="container-fluid row d-flex justify-content-center gap-5">
-            <div class="card col-md-4 card1" style="width: 18rem;">
+            <div class="card col-md-4 d-flex align-items-center justify-content-center card1" style="width: 18rem;">
                 <div class="row d-flex justify-content-center">
-                    <img src="Image/whyVector1.svg" class="card-img-top valise" alt="Valise">
+                    <img src="Image/whyVector1.svg" class="card-img-top cahier" alt="cartable">
                 </div>
-                <p class="card-text text-center">Web Development</p>
                 <div class="card-body">
+                <p class="card-text text-center">Web Development</p>
                 </div>
             </div>
-            <div class="card col-md-4 cardbleu" style="width: 18rem;">
+            <div class="card col-md-4 d-flex align-items-center justify-content-center cardbleu" style="width: 18rem;">
                 <div class="row d-flex justify-content-center">
                     <img src="Image/whyVector2.svg" class="card-img-top cahier" alt="Shop">
                 </div>
@@ -93,7 +84,7 @@
                 <p class="card-text text-center">Digital Marketing</p>
                 </div>
             </div>
-            <div class="card col-md-4 card1" style="width: 18rem;">
+            <div class="card col-md-4 d-flex align-items-center justify-content-center card1" style="width: 18rem;">
                 <div class=" row d-flex justify-content-center">
                     <img src="Image/carbon_notebook.svg" class="card-img-top cahier" alt="cahier">
                 </div>
@@ -104,89 +95,145 @@
         </div>
     </section>
     <!--Section practice Advise-->
-    <section>
-        <h2>Pratice Advice</h2>
-        <p>Problems trying to resolve the conflict between the two major realms of Classical physics        Newtonian mechanics</p>
-        <a>
-            <h3>A single source of truth</h3>
-            <p>Newton thought that light was made up of particles,but then it was discovered</p>
-        </a>
-        <a>
-            <h3>Fastest way to organize</h3>
-            <p>"Quantum mechanics" is the description of the behaviour of matter</p>
-        </a>
-        <a>
-            <h3>Fastest way to take action</h3>
-            <p>They describe a universe consisting of bodies moving</p>
-        </a>
-        <a>
-            <h3>Work better together</h3>
-            <p>They finally obtained a consistent description of the behaviour</p>
-        </a>
+    <section class="practice">
+        <div class="container">
+            <div class= "row d-flex flex-column align-items-center justify-content-center">
+                <h2 class="col-4 text-center advise fw-bold mt-5">Pratice Advice</h2>
+                <p class="col-6 text-center">Problems trying to resolve the conflict between the two major realms of Classical physics Newtonian mechanics</p>
+            </row>
+        </div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="card g-1 mb-3 carte1" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="card-text fw-bold ">A single source of truth</h4>
+                        <p class="card-text ">Newton thought that light was made up of particles,but then it was discovered</p>
+                    </div>
+                    <img src="Image/practicePhoto1.png" class="card-img-bottom" alt="fille souriante sur son téléphone">
+                  </div>
+                  <div class="card g-1 mb-3 carte1" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="card-text fw-bold ">Fastest way to organize</h4>
+                        <p class="card-text">Quantum mechanics" is the description of the behaviour of matter</p>
+                    </div>
+                    <img src="Image/practicePhoto2.png" class="card-img-bottom" alt="Deux jeune femmes de dos sur un ordinateur">
+                  </div>
+                  <div class="card g-1 mb-3 carte1" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                        <h4 class="card-text fw-bold ">Fastest way to take action</h4>
+                        <p class="card-text">They describe a universe consisting of bodies moving</p>
+                    </div>
+                    <img src="Image/practicePhoto3.png" class="card-img-bottom" alt="bureau avec ordinateur fermé">
+                  </div>
+                  <div class="card g-1 mb-3 carte1" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column ">
+                        <h4 class="card-text fw-bold">Work better together</h4>
+                        <p class="card-text ">They finally obtained a consistent description of the behaviour</p>
+                    </div>
+                    <img src="Image/practicePhoto4.png" class="card-img-bottom" alt="bureau avec ordinateur vue de haut">
+                  </div>
+            </div>
+        </div>
     </section>
     <!--section we take care-->
     <section>
-        <h2>We take care customers our all expert here.</h2>
-        <p>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
-
-        <h2>Most trusted in our field</h2>
-        <p>Most calendars are designed for teams. State is designed for freelancers who want a simple way to plan their schedule.</p>
-
-        <h3>the quick fox jumps over the lazy dog</h3>
-        <p>Things on a very small scale...</p>
-
-        <h3>the quick fox jumps over the lazy dog</h3>
-        <p>Things on a very small scale...</p>
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center col-12 align-items-center justify-content-center mb-4 mt-5 fw-bold">We take care customers our all expert here.</h2>
+                <p class="text-center mb-5">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+            </div>
+            <div class="row">
+                <img src="Image/providingMedia.png" alt="video">
+                <div class="flex-column mt-4">
+                    <h2 class="fw-bold">Most trusted in our field</h2>
+                    <p>Most calendars are designed for teams. State is designed for freelancers who want a simple way to plan their schedule.</p>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <img src="Image/troispersonne.svg" class="col-2 troispersonne">
+                    <h3 class="col-10 fw-bold">the quick fox jumps over the lazy dog</h3>
+                    <p class="ms-5 ps-5 pb-3">Things on a very small scale...</p>
+                    <img src="Image/vitesse.svg" class="col-2 vitesse">
+                    <h3 class="col-10 fw-bold">the quick fox jumps over the lazy dog</h3>
+                    <p class="ms-5 ps-5">Things on a very small scale...</p>
+                </div>
+            </div>
+        </div>
     </section>
     <!--section partenaire-->
-    <section>
-        <img src="Image/hooli.svg"  alt="hooli">
-        <img src="Image/lyft.svg" alt="lyft">
-        <img src="Image/chapeauPlume.svg" alt="chapeau a plume">
-        <img src="Image/stripe.svg" alt="stripe">
-        <img src="Image/AWS.svg" alt="aws">
-        <img src="Image/reddit.svg" alt="robot reddit">
-
+    <section class="container partenaire">
+        <div class="row">
+            <div class="container-fluid">
+                <div class="row flex-column align-items-center justify-content-center pt-5 pb-5">
+                    <img src="Image/hooli.svg" class="col-md-3 iconne" alt="hooli">
+                    <img src="Image/lyft.svg" class="col-md-3 iconne" alt="lyft">
+                    <img src="Image/chapeauPlume.svg" class="col-md-3 iconne" alt="chapeau a plume">
+                    <img src="Image/stripe.svg" class="col-md-3 iconne" alt="stripe">
+                    <img src="Image/AWS.svg" class="col-md-3 iconne" alt="aws">
+                    <img src="Image/reddit.svg" class="col-md-3 iconne" alt="robot reddit">
+                </div>
+            </div>
+        </div>
     </section>
     <!--section newsletter-->
-    <h3>Subscribe For Latest Newsletter</h3>
+    <section class="pt-4 pb-4 newsletter">
+    <h3 class="text-white text-center ">Subscribe For Latest Newsletter</h3>
     <div class="mx-5">
-        <div class="input-group mb-3 mt-4">
+        <div class="input-group mb-3 mt-4 formulaire ">
            <input type="text" class="form-control" placeholder="Your email" aria-label="Recipient's username" aria-describedby="button-addon2">
-           <button class="btn btn-success border-rad" type="button" id="button-addon2">Subscribe</button>
+           <button class="btn btn-success border-rad subscribe" type="button" id="button-addon2">Subscribe</button>
          </div>
      </div>
+    </section>
      
-    <!--Section contact-->
-    <h2>Get In Touch</h2>
-    <p>Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+    <!--Section get in touch-->
+    <section class="container getintouch">
+        <div class="row">
+            <h2 class="text-center pt-5 fw-bold">Get In Touch</h2>
+            <p class="pb-4">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="row pb-5">
+            <div class="row align-items-center justify-content-center g-4">
+                <div class="card align-items-center justify-content-center pt-5 cardwhite" style="width: 18rem;">
+                    <img src="Image/getInTouchTelephone.svg" class="card-img-top  telephone" alt="téléphone">
+                    <div class="card-body pb-5">
+                        <p class="card-text text-center">georgia.young@example.com</p>
+                        <p class="card-text text-center">georgia.young@ple.com</p>
+                        <p class="card-text text-center fw-bold">Get Support</p>
+                        <a href="#" class="btn btn-primary ms-5 boutonorange ">Submit Request</a>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center g-4 ">
+                    <div class="card align-items-center justify-content-center pt-5 cardblack " style="width: 18rem;">
+                        <img src="Image/getInTouchPosition.svg" class="card-img-top pins" alt="pins">
+                        <div class="card-body pb-5">
+                        <p class="card-text text-center text-white">georgia.young@example.com</p>
+                        <p class="card-text text-center text-white">georgia.young@ple.com</p>
+                        <p class="card-text text-center text-white fw-bold">Get Support</p>
+                        <a href="#" class="btn btn-primary ms-5 boutonblanc">Submit Request</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card align-items-center justify-content-center pt-5 cardwhite " style="width: 18rem;">
+                    <img src="Image/getInTouchLetter.svg" class="card-img-top avion" alt="avion en papier">
+                    <div class="card-body">
+                        <p class="card-text text-center">georgia.young@example.com</p>
+                        <p class="card-text text-center">georgia.young@ple.com</p>
+                        <p class="card-text text-center fw-bold">Get Support</p>
+                    <a href="#" class="btn btn-primary ms-5 boutonorange">Submit Request</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="container consulting">  
+        <div class="row col-10 ps-4 ms-4">
+            <h2 class="pt-5 fw-bold">Consulting Agency For Your Business</h2>
+            <p>the quick fox jumps over the lazy dog</p>
+        </div> 
+        <div class="ms-5 ps-3 pt-4 pb-5">
+            <button type="button" class="btn btn-warning text-white contactus ">Contact Us</button>
         </div>
-      </div>
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <h2>Consulting Agency For Your Business</h2>
-    <p>the quick fox jumps over the lazy dog</p>
-    <button type="button" class="btn btn-warning">Contact Us</button>
+    </div> 
+    
     <!--section compagnie info-->
   <p>Company Info</p>
   <a>About Us</a>
