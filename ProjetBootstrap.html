@@ -30,7 +30,7 @@ controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navig
                 <div class="collapse navbar-collapse order-md-1 justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav my-5 my-md-0">
                       <li class="nav-item text-md-star text-center">
-                        <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+                        <a class="nav-link fs-5" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item text-md-star text-center">
                         <a class="nav-link fs-5" href="#">Product</a>
@@ -45,51 +45,57 @@ controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navig
                 </div>
             </div>
 </nav>
-            <!--CONTENUE HEADER-->
+    <!--CONTENUE HEADER-->
             <div class="container">
-                <div class="row col-md-6 d-flex align-items-center justify-content-center ">
-                    <h1 class="text-center g-5 pb-2 fw-bold titreh"> We Take Care of the Future</h1>
-                    <p class="text-center contenu">We know how large objects will act, but things on a small scale.</p>
-                    <div class="d-flex flex-column align-items-center justify-content-center">
-                    <button class="col-5 btn btn-primary boutonh1">Get Quote Now</button>
-                    <button class=" col-4 btn btn-outline-primary mt-2 boutonh2">Learn More</button>
+                <div class="row d-flex align-items-center justify-content-center ">
+                    <h1 class="text-center pt-5 mt-5 pb-2 fw-bold titreh"> We Take Care of the Future</h1>
+                    <p class="text-center contenu mt-4">We know how large objects will act, but things on a small scale.</p>
+                    <div class="d-flex flex-column align-items-center justify-content-center flex-md-row justify-content-md-evenly">
+                            <button class="col-5 btn btn-primary mt-4 boutonh1">Get Quote Now</button>
+                            <button class=" col-4 btn btn-outline-primary mt-4 boutonh2">Learn More</button>
                     </div>
+                    <img src="Image/secretaireHeader.png" class="col-12 col-md-6 mt-5" alt="secretaire souriante">
+                        
                 </div>
                 
             </div>
         </div>
     </header>
     <!--Section why choose us-->
-    <section style="height:800px;">
+    <section >
         <div class="container-fluid">
             <div class="row d-flex justify-content-center mt-5 pt-5 ">
                 <h2 class="col-6 col-md-12 text-center  choose">WHY CHOOSE US</h2>
-                <p class=" col-6 col-md-12 text-center chooseparagraphe">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+                <div class="row d-flex justify-content-center  mb-5">
+                    <p class=" col-6 col-md-12 text-center chooseparagraphe">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+                </div>
             </div>
         </div>
-        <div class="container-fluid row d-flex justify-content-center gap-5">
-            <div class="card col-md-4 d-flex align-items-center justify-content-center card1" style="width: 18rem;">
-                <div class="row d-flex justify-content-center">
-                    <img src="Image/whyVector1.svg" class="card-img-top cahier" alt="cartable">
+        <div class="container">
+            <div class="row justify-content-center g-4">
+                <div class="card col-md-4 mb-md-5 d-flex align-items-center justify-content-center card1" style="width: 18rem;">
+                    <div class="row d-flex justify-content-center">
+                        <img src="Image/whyVector1.svg" class="card-img-top cahier" alt="cartable">
+                    </div>
+                    <div class="card-body">
+                    <p class="card-text text-center">Web Development</p>
+                    </div>
                 </div>
-                <div class="card-body">
-                <p class="card-text text-center">Web Development</p>
+                <div class="card ms-md-4 mb-md-5 col-md-4 d-flex align-items-center justify-content-center cardbleu" style="width: 18rem;">
+                    <div class="row d-flex justify-content-center">
+                        <img src="Image/whyVector2.svg" class="card-img-top cahier" alt="Shop">
+                    </div>
+                    <div class="card-body">
+                    <p class="card-text text-center">Digital Marketing</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card col-md-4 d-flex align-items-center justify-content-center cardbleu" style="width: 18rem;">
-                <div class="row d-flex justify-content-center">
-                    <img src="Image/whyVector2.svg" class="card-img-top cahier" alt="Shop">
-                </div>
-                <div class="card-body">
-                <p class="card-text text-center">Digital Marketing</p>
-                </div>
-            </div>
-            <div class="card col-md-4 d-flex align-items-center justify-content-center card1" style="width: 18rem;">
-                <div class=" row d-flex justify-content-center">
-                    <img src="Image/carbon_notebook.svg" class="card-img-top cahier" alt="cahier">
-                </div>
-                <div class="card-body">
-                <p class="card-text text-center">Digital Marketing</p>
+                <div class="card ms-md-4 mb-md-5 col-md-4 d-flex align-items-center justify-content-center card1" style="width: 18rem;">
+                    <div class=" row d-flex justify-content-center">
+                        <img src="Image/carbon_notebook.svg" class="card-img-top cahier" alt="cahier">
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text text-center">Digital Marketing</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,61 +103,63 @@ controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navig
     <!--Section practice Advise-->
     <section class="practice">
         <div class="container">
-            <div class= "row d-flex flex-column align-items-center justify-content-center">
-                <h2 class="col-4 text-center advise fw-bold mt-5">Pratice Advice</h2>
-                <p class="col-6 text-center">Problems trying to resolve the conflict between the two major realms of Classical physics Newtonian mechanics</p>
+            <div class= "row flex-column align-items-center justify-content-center">
+                <h2 class="text-center fw-bold mt-5 advise ">Pratice Advice</h2>
+                <p class="col-7 text-center prob">Problems trying to resolve the conflict between the two major realms of Classical physics Newtonian mechanics</p>
             </row>
         </div>
         <div class="container">
-            <div class="row d-flex align-items-center justify-content-center">
+            <div class="row d-flex align-items-center justify-content-center justify-content-md-around ">
                 <div class="card g-1 mb-3 carte1" style="width: 18rem;">
-                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
-                        <h4 class="card-text fw-bold ">A single source of truth</h4>
-                        <p class="card-text ">Newton thought that light was made up of particles,but then it was discovered</p>
+                    <div class="card-body d-flex flex-column ms-2">
+                        <h4 class="card-text fw-bold col-7 t1">A single source of truth</h4>
+                        <p class="card-text p1 ">Newton thought that light was made up of particles,but then it was discovered</p>
                     </div>
-                    <img src="Image/practicePhoto1.png" class="card-img-bottom" alt="fille souriante sur son téléphone">
-                  </div>
-                  <div class="card g-1 mb-3 carte1" style="width: 18rem;">
-                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
-                        <h4 class="card-text fw-bold ">Fastest way to organize</h4>
-                        <p class="card-text">Quantum mechanics" is the description of the behaviour of matter</p>
+                    <img src="Image/practicePhoto1.png" class="card-img-bottom ph1" alt="fille souriante sur son téléphone">
+                </div>
+                <div class="card g-1 mb-3 carte1" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column ms-2">
+                        <h4 class="card-text fw-bold t1 col-6 ">Fastest way to organize</h4>
+                        <p class="card-text col-10 p1">"Quantum mechanics" is the description of the behaviour of matter</p>
                     </div>
-                    <img src="Image/practicePhoto2.png" class="card-img-bottom" alt="Deux jeune femmes de dos sur un ordinateur">
-                  </div>
-                  <div class="card g-1 mb-3 carte1" style="width: 18rem;">
-                    <div class="card-body d-flex flex-column align-items-center justify-content-center">
-                        <h4 class="card-text fw-bold ">Fastest way to take action</h4>
-                        <p class="card-text">They describe a universe consisting of bodies moving</p>
+                    <img src="Image/practicePhoto2.png" class="card-img-bottom ph1" alt="Deux jeune femmes de dos sur un ordinateur">
+                </div>
+                <div class="card g-1 mb-3 carte1" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column ms-2">
+                        <h4 class="card-text fw-bold col-6 t1  ">Fastest way to take action</h4>
+                        <p class="card-text col-8 p1">They describe a universe consisting of bodies moving</p>
                     </div>
-                    <img src="Image/practicePhoto3.png" class="card-img-bottom" alt="bureau avec ordinateur fermé">
-                  </div>
-                  <div class="card g-1 mb-3 carte1" style="width: 18rem;">
-                    <div class="card-body d-flex flex-column ">
-                        <h4 class="card-text fw-bold">Work better together</h4>
-                        <p class="card-text ">They finally obtained a consistent description of the behaviour</p>
+                    <img src="Image/practicePhoto3.png" class="card-img-bottom ph1" alt="bureau avec ordinateur fermé">
+                </div>
+                <div class="card g-1 mb-3 carte1" style="width: 18rem;">
+                    <div class="card-body d-flex flex-column ms-2">
+                        <h4 class="card-text fw-bold col-6 t1">Work better together</h4>
+                        <p class="card-text col-8 p1">They finally obtained a consistent description of the behaviour</p>
                     </div>
-                    <img src="Image/practicePhoto4.png" class="card-img-bottom" alt="bureau avec ordinateur vue de haut">
-                  </div>
+                    <img src="Image/practicePhoto4.png" class="card-img-bottom ph1" alt="bureau avec ordinateur vue de haut">
+                </div>
             </div>
         </div>
     </section>
     <!--section we take care-->
-    <section>
-        <div class="container">
+    <section class="container">
+        <div class="row">
             <div class="row">
-                <h2 class="text-center col-12 align-items-center justify-content-center mb-4 mt-5 fw-bold">We take care customers our all expert here.</h2>
-                <p class="text-center mb-5">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+                <h2 class="text-center col-12 align-items-center justify-content-center mb-4 mt-5 fw-bold ">We take care customers our all expert here.</h2>
+                <p class="text-center mb-5">Problems trying to resolve the conflict between the two major realms of Classical "Imaphysics: Newtonian mechanics</p>
             </div>
-            <div class="row">
-                <img src="Image/providingMedia.png" alt="video">
-                <div class="flex-column mt-4">
-                    <h2 class="fw-bold">Most trusted in our field</h2>
-                    <p>Most calendars are designed for teams. State is designed for freelancers who want a simple way to plan their schedule.</p>
+            <div class="col-md-8 d-flex justify-content-center "> 
+                <img src="Image/providingMedia.png" class="video w-75" alt="video">
+            </div>
+            <div class="row col-md-4 align-items-center justify-content-center">
+                <div class="mt-4">
+                    <h2 class="fw-bold most">Most trusted in our field</h2>
+                    <p class="calendars">Most calendars are designed for teams. State is designed for freelancers who want a simple way to plan their schedule.</p>
                 </div>
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center pb-5 mb-5">
                     <img src="Image/troispersonne.svg" class="col-2 troispersonne">
-                    <h3 class="col-10 fw-bold">the quick fox jumps over the lazy dog</h3>
-                    <p class="ms-5 ps-5 pb-3">Things on a very small scale...</p>
+                    <h3 class="col-10 fw-bold pt-4">the quick fox jumps over the lazy dog</h3>
+                    <p class=" ms-5 ps-5 pb-3">Things on a very small scale...</p>
                     <img src="Image/vitesse.svg" class="col-2 vitesse">
                     <h3 class="col-10 fw-bold">the quick fox jumps over the lazy dog</h3>
                     <p class="ms-5 ps-5">Things on a very small scale...</p>
@@ -160,112 +168,154 @@ controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navig
         </div>
     </section>
     <!--section partenaire-->
-    <section class="container partenaire">
-        <div class="row">
-            <div class="container-fluid">
-                <div class="row flex-column align-items-center justify-content-center pt-5 pb-5">
-                    <img src="Image/hooli.svg" class="col-md-3 iconne" alt="hooli">
-                    <img src="Image/lyft.svg" class="col-md-3 iconne" alt="lyft">
-                    <img src="Image/chapeauPlume.svg" class="col-md-3 iconne" alt="chapeau a plume">
-                    <img src="Image/stripe.svg" class="col-md-3 iconne" alt="stripe">
-                    <img src="Image/AWS.svg" class="col-md-3 iconne" alt="aws">
-                    <img src="Image/reddit.svg" class="col-md-3 iconne" alt="robot reddit">
+    <section class="partenaire">
+        <div class="container">
+            <div class="row">
+                <div class="container-fluid">
+                    <div class="row flex-column flex-md-row align-items-center justify-content-center pt-5 pb-5">
+                        <img src="Image/hooli.svg" class="col-md-3 iconne" alt="hooli">
+                        <img src="Image/lyft.svg" class="col-md-3 iconne" alt="lyft">
+                        <img src="Image/chapeauPlume.svg" class="col-md-3 iconne" alt="chapeau a plume">
+                        <img src="Image/stripe.svg" class="col-md-3 iconne" alt="stripe">
+                        <img src="Image/AWS.svg" class="col-md-3 iconne" alt="aws">
+                        <img src="Image/reddit.svg" class="col-md-3 iconne" alt="robot reddit">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!--section newsletter-->
     <section class="pt-4 pb-4 newsletter">
-    <h3 class="text-white text-center ">Subscribe For Latest Newsletter</h3>
+    <h3 class="text-white text-center sub ">Subscribe For Latest Newsletter</h3>
     <div class="mx-5">
         <div class="input-group mb-3 mt-4 formulaire ">
-           <input type="text" class="form-control" placeholder="Your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+           <input type="text" class="form-control youremail" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
            <button class="btn btn-success border-rad subscribe" type="button" id="button-addon2">Subscribe</button>
          </div>
      </div>
     </section>
      
     <!--Section get in touch-->
-    <section class="container getintouch">
-        <div class="row">
-            <h2 class="text-center pt-5 fw-bold">Get In Touch</h2>
-            <p class="pb-4">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
-        </div>
-        <div class="row pb-5">
-            <div class="row align-items-center justify-content-center g-4">
-                <div class="card align-items-center justify-content-center pt-5 cardwhite" style="width: 18rem;">
-                    <img src="Image/getInTouchTelephone.svg" class="card-img-top  telephone" alt="téléphone">
-                    <div class="card-body pb-5">
-                        <p class="card-text text-center">georgia.young@example.com</p>
-                        <p class="card-text text-center">georgia.young@ple.com</p>
-                        <p class="card-text text-center fw-bold">Get Support</p>
-                        <a href="#" class="btn btn-primary ms-5 boutonorange ">Submit Request</a>
-                    </div>
-                </div>
-                <div class="row align-items-center justify-content-center g-4 ">
-                    <div class="card align-items-center justify-content-center pt-5 cardblack " style="width: 18rem;">
-                        <img src="Image/getInTouchPosition.svg" class="card-img-top pins" alt="pins">
-                        <div class="card-body pb-5">
-                        <p class="card-text text-center text-white">georgia.young@example.com</p>
-                        <p class="card-text text-center text-white">georgia.young@ple.com</p>
-                        <p class="card-text text-center text-white fw-bold">Get Support</p>
-                        <a href="#" class="btn btn-primary ms-5 boutonblanc">Submit Request</a>
+    <section class="getintouch">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <h2 class="text-center pt-5 fw-bold getin">Get In Touch</h2>
+                <p class="pb-4 col-7 text-center problems">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics</p>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12 d-flex justify-content-center  col-md-4 g-4 g-md-0">
+                    <div class="card align-items-center justify-content-center pt-5  cardwhite" style="width: 18rem;">
+                        <img src="Image/getInTouchTelephone.svg" class="card-img-top  telephone" alt="téléphone">
+                        <div class="card-body ">
+                            <p class="card-text text-center">georgia.young@example.com</p>
+                            <p class="card-text text-center">georgia.young@ple.com</p>
+                            <p class="card-text text-center fw-bold">Get Support</p>
+                            <a href="#" class="btn btn-primary ms-5 boutonorange ">Submit Request</a>
                         </div>
                     </div>
                 </div>
-                <div class="card align-items-center justify-content-center pt-5 cardwhite " style="width: 18rem;">
-                    <img src="Image/getInTouchLetter.svg" class="card-img-top avion" alt="avion en papier">
-                    <div class="card-body">
-                        <p class="card-text text-center">georgia.young@example.com</p>
-                        <p class="card-text text-center">georgia.young@ple.com</p>
-                        <p class="card-text text-center fw-bold">Get Support</p>
-                    <a href="#" class="btn btn-primary ms-5 boutonorange">Submit Request</a>
+                    <div class=" col-12 col-md-4 d-flex justify-content-center g-4 g-md-0">
+                        <div class="card align-items-center justify-content-center pt-5 cardblack " style="width: 18rem;">
+                            <img src="Image/getInTouchPosition.svg" class="card-img-top pins" alt="pins">
+                            <div class="card-body pb-5">
+                            <p class="card-text text-center text-white">georgia.young@example.com</p>
+                            <p class="card-text text-center text-white">georgia.young@ple.com</p>
+                            <p class="card-text text-center text-white fw-bold">Get Support</p>
+                            <a href="#" class="btn btn-primary ms-5 boutonblanc">Submit Request</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 d-flex justify-content-center g-4 g-md-0">
+                        <div class="card align-items-center justify-content-center pt-5 cardwhite" style="width: 18rem;">
+                            <img src="Image/getInTouchLetter.svg" class="card-img-top papieravion" alt="avion en papier">
+                            <div class="card-body">
+                                <p class="card-text text-center">georgia.young@example.com</p>
+                                <p class="card-text text-center">georgia.young@ple.com</p>
+                                <p class="card-text text-center fw-bold">Get Support</p>
+                            <a href="#" class="btn btn-primary ms-5 boutonorange">Submit Request</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-    </section>
-    <div class="container consulting">  
-        <div class="row col-10 ps-4 ms-4">
-            <h2 class="pt-5 fw-bold">Consulting Agency For Your Business</h2>
-            <p>the quick fox jumps over the lazy dog</p>
-        </div> 
-        <div class="ms-5 ps-3 pt-4 pb-5">
-            <button type="button" class="btn btn-warning text-white contactus ">Contact Us</button>
         </div>
-    </div> 
+    </section>
+    <div class="consulting">  
+        <div class="container">
+            <div class="row col-10 ps-4 ms-4">
+                <h2 class="pt-5 fw-bold consult">Consulting Agency For Your Business</h2>
+                <p class="thequick"> the quick fox jumps over the lazy dog</p>
+            </div> 
+            <div class="ms-5 ps-3 pt-4 pb-5">
+                <button type="button" class="btn btn-warning text-white contactus ">Contact Us</button>
+            </div>
+        </div> 
+    </div>
     
     <!--section compagnie info-->
-  <p>Company Info</p>
-  <a>About Us</a>
-  <a>Carrier</a>
-  <a>We are hiring</a>
-  <a>Blog</a>
-  <p>Legal</p>
-  <a>About Us</a>
-  <a>carrier</a>
-  <a>We are hiring</a>
-  <a>Blog</a>
-  <p>Features</p>
-  <a>Business Marketing</a>
-  <a>User Analytics</a>
-  <a>Live Chat</a>
-  <a>Unlimited Support</a>
-  <p>Resources</p>
-  <a>IOS & Android</a>
-  <a>Watch a Demo</a>
-  <a>Customers</a>
-  <a>API</a>
-  <p>Get In Touch</p>
-  <a>(480) 555-0103</a>
-  <a>4517 Washington Ave.</a>
-  <a>debra.holt@example.com</a>
+<footer>
+    <section class="info">
+        <div class="container text-white pt-5">
+            <div class="row flex-md-row ms-5">
+                <div class="row">
+                    <p class="col-md-2 fw-bold mb-3">Company Info</p>
+                    <p class="col-md-2 mb-2">About Us</p>
+                    <p class="col-md-2 mb-2">Carrier</p>
+                    <p class="col-md-2 mb-2">We are hiring</p>
+                    <p class="col-md-2 mb-2">Blog</p>
+                </div>
+                <div class="row">
+                    <p class="col-md-2 fw-bold mb-3 mt-4">Legal</p>
+                    <p class="col-md-2 mb-2">About Us</p>
+                    <p class="col-md-2 mb-2">carrier</p>
+                    <p class="col-md-2 mb-2">We are hiring</p>
+                    <p class="col-md-2 mb-2">Blog</p>
+                </div>
+                <div class="row">
+                    <p class="col-md-2 fw-bold mb-3 mt-4">Features</p>
+                    <p class="col-md-2 mb-2">Business Marketing</p>
+                    <p class="col-md-2 mb-2">User Analytics</p>
+                    <p class="col-md-2 mb-2">Live Chat</p>
+                    <p class="col-md-2 mb-2">Unlimited Support</p>
+                </div>
+                <div class="row">
+                    <p class="col-md-2 fw-bold mb-3 mt-4">Resources</p>
+                    <p class="col-md-2 mb-2">IOS & Android</p>
+                    <p class="col-md-2 mb-2">Watch a Demo</p>
+                    <p class="col-md-2 mb-2">Customers</p>
+                    <p class="col-md-2 mb-2">API</p>
+                </div>
+                <div>
+                    <div class="row">
+                        <p class="col-md-2 fw-bold mb-3 mt-4">Get In Touch</p>
+                    </div>
+                    <div class="row">
+                        <img src="Image/phonegetintouch.svg" class="col-6 col-md-4 pb-4 phone">
+                        <p class="col-6 col-md-4">(480) 555-0103</p>
+                    </div>
+                    <div class="row">
+                        <img src="Image/pinsgetintouch.svg" class=" col-6 col-md-4 pb-4 fleche">
+                        <p class="col-6 col-md-4">4517 Washington Ave.</p>
+                    </div>
+                    <div class="row mb-5">
+                        <img src="Image/aviongetintouch.png" class="col-6 col-md-4 avion">
+                        <p class="col-6 col-md-4">debra.holt@example.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Footer-->
-    <p>Made With Love By Figmaland</p>
-    <p>All Right Reserved</p>
-    <img src="Image/facebook.svg" alt="facebook">
-    <img src="Image/insta.svg" alt="Instagram">
-    <img src="Image/twitter.svg" alt="twitter">
-    <img src="Image/youtube.svg" alt="youtube"> 
+    <section class="container">
+            <p class="ps-5 pt-4">Made With Love By Figmaland</p>
+            <p class="pb-5 ps-5">All Right Reserved</p>
+            <img src="Image/facebook.svg" class="ps-5 mb-5 "alt="facebook">
+            <img src="Image/insta.svg" class="ms-3 mb-5" alt="Instagram">
+            <img src="Image/twitter.svg" class="ms-3 mb-5" alt="twitter">
+            <img src="Image/youtube.svg" class="ms-3 mb-5 " alt="youtube"> 
+        </div>
+    </section>
+</footer>
    <script src="Js/bootstrap.min.js"></script> 
 </body>
 </html>

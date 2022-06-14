@@ -1,8 +1,5 @@
 /* BODY */
 body{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
     font-family: 'montserrat';
 }
 /* Nav */
@@ -11,19 +8,15 @@ body{
 }
 .logo{
     color:#252B42;
-
 }
 .barnav a {
     color:#737373;
 }
 /* HEADER */
 header{
-    height: 100vh ;
-    background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%);
-    
+    min-height: 100vh ;
+    background: linear-gradient(107.2deg, #FBE38F 1.65%, #F1D256 100.77%); 
 }
-
-
 .boutonh1{
     border-radius: 37px;
     background-color: #00A0C1;
@@ -34,17 +27,12 @@ header{
     color:#00A0C1;
     border-color: #00A0C1;
 }
-
-
 .titreh{
     font-size:40px;
-
-
 }
 .contenu{
     font-size:20px;
 }
-
 /* Why Choose Us*/
 .choose{
     width:300px;
@@ -83,25 +71,45 @@ header{
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
 }
 /*Practice Advice*/
-
+.prob{
+    color:#737373;
+}
+.t1{
+    font-size: 16px;
+    color: #252B42;
+}
+.p1{
+    font-size: 14px;
+    color: #737373;
+}
 .practice{
     background-color: #F3F3F3;
 }
-
-.advice{
+.advise{
     width: 180px;
-    height: 114px;
-    font-weight: 700;
+    height: 200px;
     font-size: 40px;
     line-height: 57px;
 }
-
+.ph1{
+    border-radius: 0%;
+}
 .carte1{
     border-radius: 0px;
     border:0px;
 }
 /* we take care*/
-
+.most{
+    font-size: 40px;
+    line-height: 57px;
+}
+.calendar{
+    font-size: 14px;
+    line-height: 20px;
+    color: #737373;
+}
+.video{
+}
 .troispersonne{
     width:50px;
     height:50px;
@@ -109,7 +117,6 @@ header{
 .vitesse{
     width:50px;
     height:50px;
-
 }
 /*partenaire*/
 .partenaire{
@@ -126,13 +133,31 @@ header{
 .formulaire{
     height: 60px;
 }
+.sub{
+   font-size: 24px;
+   line-height: 32px; 
+}
+.youremail{
+    font-size: 14px;
+    line-height: 28px;
+    color:#737373;
+}
 .subscribe{
     background-color: #FFA62B ;
 }
-
 /*Get in touch*/
 .getintouch{
     background-color: #F3F3F3;
+}
+.getin{
+   font-size: 40px; 
+   line-height: 57px;
+}
+.problems{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #737373;
 }
 .telephone{
     width: 72px;
@@ -154,18 +179,50 @@ header{
     color:#FFA62B;
     background-color: rgba(255, 255, 255, 0);
     border-color: #FFA62B;
+    font-size: 14px;
+    line-height: 24px;
 }
 .boutonblanc{
     background-color:rgba(0, 0, 0, 0);
     border-color: white;
+    font-size: 14px;
+    line-height: 24px;
 }
-.avion{
+.papieravion{
     width: 72px;
     height: 72px;
 }
 .consulting{
     background-color:#FAFAFA ;
 }
+.consult{
+    font-size: 24px;
+    line-height: 32px;
+}
+.thequick{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#737373;
+}
 .contactus{
     background-color: #FFA62B;
+    font-size: 14px;
+    line-height: 28px;
+}
+/*footer*/
+.info{
+    background-color: #16697A ;
+}
+.phone{
+    width: 50px;
+    height: 50px;
+}
+.fleche{
+    width: 50px;
+    height: 50px;
+}
+.avion {
+    width: 50px;
+    height: 30px;
 }
